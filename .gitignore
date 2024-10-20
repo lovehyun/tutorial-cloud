@@ -1,0 +1,7 @@
+# 테라폼 생성파일
+.terraform/
+.terraform*
+terraform.tfstate*
+
+# 실행파일
+*.exe

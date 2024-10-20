@@ -1,0 +1,27 @@
+1. terraform validate: 설정 파일의 유효성을 검증
+
+구문 검증 (Syntax Validation)
+논리적 검증 (Logical Validation)
+모듈 검증 (Module Validation)
+프로바이더 검증 (Provider Validation)
+
+2. terraform fmt: 코드 스타일 자동 포맷팅
+
+3. terraform show: 현재 상태나 플랜을 보여줌
+
+terraform show
+terraform show -json: JSON 형식으로 상태 출력
+
+4. terraform providers: 사용 중인 프로바이더를 보여줌
+
+5. terraform output: 출력값을 보여줌
+
+6. terraform refresh: 상태를 최신 정보로 갱신
+terraform refresh
+
+7. terraform graph: 리소스 간의 의존 관계를 그래프로 출력
+terraform graph
+
+apt install graphviz -y
+terraform graph | dot -Tpng > graph.png
+
