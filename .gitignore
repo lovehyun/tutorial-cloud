@@ -5,3 +5,9 @@ terraform.tfstate*
 
 # 실행파일
 *.exe
+
+# 키파일
+*.pem
+
+# 임시테스트 폴더/파일
+TEMP/
